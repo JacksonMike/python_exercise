@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="/static/bootstrap/css/bootstrap.css">
+    <script src="/static/js/jquery.js"></script>
+</head>
+<body>
+    <h1>注册页面</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <form action="" method="post">
+                    {% csrf_token %}
+                    {% for foo in form %}
+                        <div class="form-group">
+                            <label for="">{{ foo.label }}</label>
+                            {{ foo }}
+                            <span class="error pull-right"></span>
+                        </div>
+                    {% endfor %}
+                    <input type="button" class="btn btn-primary register_btn" value="注册">
+                </form>
+            </div>
+        </div>
+    </div>
+    <script>
+        $(".register_btn").click(function () {
+            $.ajax({
+                url: "",
+                type: "post",
+                data: {
+                    user: $("#id_user").val(),
+                    gender: $("#id_gender").val(),
+                    pwd: $("#id_pwd").val(),
+                    ensure_pwd: $("#id_ensure_pwd").val(),
+                    email: $("#id_email").val(),
+                    csrfmiddlewaretoken:$("[name='csrfmiddlewaretoken']").val()
+                },
+                success: function (response) {
+                    console.log(response);
+                    if (response.user){
+                        //登陆成功
+                        location.href = "/enter/"
+                    }else {
+                        // 清除错误
+                        $(".error").html("");
+                        $(".form-group").removeClass("has_error");
+                        // 展示新错误
+                        $.each(response.error_message, function (i, j) {
+                            console.log(i, j);
+                            $("#id_"+i).next().html(j[0]).css("color","red").parent().addClass("has-error");
+                        });
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>计算页面</title>
+    <script src="/static/js/jquery-3.3.js"></script>
+</head>
+<body>
+    <h1>计算器</h1>
+    <input type="text" id="c1"> + <input type="text" id="c2">=<input type="text" id="c3"><br>
+    <button id="btn">计算</button>
+    <script>
+        $("#btn").click(function () {
+            $.ajax({
+                url: "/deal_json_calculate/",
+                type: "post",
+                data:JSON.stringify({
+                    c1: $("#c1").val(),
+                    c2: $("#c2").val(),
+                    // csrfmiddlewaretoken: $("[name='csrfmiddlewaretoken']").val()
+                }),
+                success: function (response) {
+                    console.log(response);
+                    $("#c3").val(response);
+                }
+            })
+        })
+    </script>
+</body>
+</html>

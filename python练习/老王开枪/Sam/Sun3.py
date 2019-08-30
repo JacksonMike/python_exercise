@@ -1,0 +1,2 @@
+def take():
+    print("----take----")

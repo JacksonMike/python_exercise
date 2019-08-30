@@ -1,0 +1,13 @@
+mongodb建立副本集步骤
+1开启两个mongod服务器:一个绑定27018，一个绑定27019
+2在开启两个mongo客户端:分别和服务器链接
+3作为主服务器27108,要先初始化，再添加结点,即27019,副slaveOK()
+4依次断27018服 27019服 27018客 27019客
+5再打开27018服 27018客 即变成副
+
+
+数据库备份和恢复
+备份
+mongodump -u make1 -p 123 --authenticationDatabase make1 -d make1 -o bak
+恢复
+mongorestore -u admin -p 123 --authenticationDatabase admin -d take --dir bak/make1

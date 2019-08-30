@@ -1,0 +1,14 @@
+{% include "index.html" %}
+<form action="" method="post" enctype="multipart/form-data">
+    <input type="text" name="username"><br>
+    <input type="password" name="pwd"><br>
+    <input type="submit" value="login"><br>
+    <input type="file" name="file"><br>
+    {{ msg }}
+</form>
+
+<h1>宏定义</h1>
+{% macro type_text(name, type) %}
+    <input type="{{ type }}" name="{{ name }}">
+{% endmacro %}
+{{ type_text("username", "text") }}

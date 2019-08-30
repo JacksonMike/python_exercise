@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+    <script src="/static/js/jquery-3.3.js"></script>
+</head>
+<body>
+    <h1>首页</h1>
+    <button class="btn">提交ajax</button>
+    <p class="show"></p>
+    <script>
+        $(".btn").click(function () {
+            $.ajax({
+                url: "/deal_ajax/",
+                type: "get",
+                success: function (response) {
+                    console.log(response);
+                    $(".show").html(response)
+                }
+            })
+        })
+    </script>
+</body>
+</html>

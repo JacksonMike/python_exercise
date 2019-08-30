@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>局部first</h1>
+    {% load my_filter_tag %}
+    {{ n|add:10 }}<br>
+    {{ n|mul:10 }}<br>
+    {{ "click"|tag }}<br>
+    {{ "click"|upper }}<br>
+    {% mul_tag 2 9 9 %}<br>
+    {% get_menu %}
+</body>
+</html>

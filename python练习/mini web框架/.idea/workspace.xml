@@ -1,0 +1,610 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="53d9c302-7a20-4254-b07e-037ddfa401b7" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/newPython$intervw.coverage" NAME="intervw Coverage Results" MODIFIED="1548045494941" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/正则表达式" />
+    <SUITE FILE_PATH="coverage/newPython$002_.coverage" NAME="002-字符串字面值 Coverage Results" MODIFIED="1548420819484" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据结构" />
+    <SUITE FILE_PATH="coverage/mini_web$001_.coverage" NAME="001-静态服务器 Coverage Results" MODIFIED="1559276129971" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/newPython$01_.coverage" NAME="01-乱序字符串 Coverage Results" MODIFIED="1549085111039" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据结构/裘宗燕" />
+    <SUITE FILE_PATH="coverage/newPython$select.coverage" NAME="select并发服务器 Coverage Results" MODIFIED="1546947853806" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/newPython$009_.coverage" NAME="009-栈的实现 Coverage Results" MODIFIED="1549526279422" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据结构/传智播客" />
+    <SUITE FILE_PATH="coverage/newPython$hm_04_demo2.coverage" NAME="hm_04_demo2 Coverage Results" MODIFIED="1546925496400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/newPython$Demo3.coverage" NAME="Demo3 Coverage Results" MODIFIED="1548386287660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/newPython$004_.coverage" NAME="004-顺序表连续存储 Coverage Results" MODIFIED="1548997929353" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据结构/传智播客" />
+    <SUITE FILE_PATH="coverage/newPython$013_.coverage" NAME="013-选择排序 Coverage Results" MODIFIED="1549607878735" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据结构/传智播客" />
+    <SUITE FILE_PATH="coverage/newPython$MyWebFrame.coverage" NAME="MyWebFrame Coverage Results" MODIFIED="1548307977763" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/newPython$017_.coverage" NAME="017-归并排序 Coverage Results" MODIFIED="1549865297995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据结构/传智播客" />
+    <SUITE FILE_PATH="coverage/newPython$Demo4.coverage" NAME="Demo4 Coverage Results" MODIFIED="1548388545182" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/newPython$hm_01_hello.coverage" NAME="hm_01_hello Coverage Results" MODIFIED="1548075696325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/newPython$001_GuessNum.coverage" NAME="001-GuessNum Coverage Results" MODIFIED="1548419495409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据结构" />
+    <SUITE FILE_PATH="coverage/newPython$006_.coverage" NAME="006-单向循环链表 Coverage Results" MODIFIED="1549515920701" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据结构/传智播客" />
+    <SUITE FILE_PATH="coverage/newPython$011_.coverage" NAME="011-双端队列 Coverage Results" MODIFIED="1549530421600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据结构/传智播客" />
+    <SUITE FILE_PATH="coverage/newPython$test.coverage" NAME="test Coverage Results" MODIFIED="1549869319709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据结构/传智播客" />
+    <SUITE FILE_PATH="coverage/newPython$04_MyWebFramework.coverage" NAME="04-MyWebFramework Coverage Results" MODIFIED="1547781881565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/newPython$03_.coverage" NAME="03-乱序字符串 Coverage Results" MODIFIED="1549088247747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据结构/裘宗燕" />
+    <SUITE FILE_PATH="coverage/newPython$019_.coverage" NAME="019-二叉树 Coverage Results" MODIFIED="1549942297429" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据结构/传智播客" />
+    <SUITE FILE_PATH="coverage/newPython$Demo1.coverage" NAME="Demo1 Coverage Results" MODIFIED="1551072267378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/newPython$014_.coverage" NAME="014-插入排序 Coverage Results" MODIFIED="1549688580099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据结构/传智播客" />
+    <SUITE FILE_PATH="coverage/newPython$008_.coverage" NAME="008-度量算法运行的时间 Coverage Results" MODIFIED="1548591561714" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据结构" />
+    <SUITE FILE_PATH="coverage/newPython$01_exp.coverage" NAME="01-exp Coverage Results" MODIFIED="1547813504149" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/正则表达式" />
+    <SUITE FILE_PATH="coverage/newPython$016_.coverage" NAME="016-快速排序 Coverage Results" MODIFIED="1549857839131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据结构/传智播客" />
+    <SUITE FILE_PATH="coverage/newPython$001_.coverage" NAME="001-算法引入 Coverage Results" MODIFIED="1548644919537" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据结构/传智播客" />
+    <SUITE FILE_PATH="coverage/newPython$003_.coverage" NAME="003-代码运行时间测算 Coverage Results" MODIFIED="1548687102470" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据结构/传智播客" />
+    <SUITE FILE_PATH="coverage/newPython$018_.coverage" NAME="018-二分法 Coverage Results" MODIFIED="1549873889810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据结构/传智播客" />
+    <SUITE FILE_PATH="coverage/newPython$MyWebServer.coverage" NAME="MyWebServer Coverage Results" MODIFIED="1548385884923" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/newPython$hm_03_demo1.coverage" NAME="hm_03_demo1 Coverage Results" MODIFIED="1546925491377" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/newPython$03_dynamic_web.coverage" NAME="03-dynamic_web Coverage Results" MODIFIED="1547728751555" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/newPython$003_import.coverage" NAME="003-import语句 Coverage Results" MODIFIED="1548422357597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据结构" />
+    <SUITE FILE_PATH="coverage/newPython$012_.coverage" NAME="012-冒泡排序 Coverage Results" MODIFIED="1549603540202" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据结构/传智播客" />
+    <SUITE FILE_PATH="coverage/newPython$02_.coverage" NAME="02-乱序字符串 Coverage Results" MODIFIED="1549089045372" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据结构/裘宗燕" />
+    <SUITE FILE_PATH="coverage/newPython$005_.coverage" NAME="005-单链表 Coverage Results" MODIFIED="1549513848504" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据结构/传智播客" />
+    <SUITE FILE_PATH="coverage/newPython$web.coverage" NAME="第一个web服务器 Coverage Results" MODIFIED="1546957955893" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/newPython$04_.coverage" NAME="04-单链表 Coverage Results" MODIFIED="1549251558977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据结构/传智播客" />
+    <SUITE FILE_PATH="coverage/newPython$02_static_web_abstract.coverage" NAME="02-static_web_abstract Coverage Results" MODIFIED="1547552282486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/newPython$01_static_web.coverage" NAME="01_static_web Coverage Results" MODIFIED="1548065109723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/newPython$007_.coverage" NAME="007-文件及其操作 Coverage Results" MODIFIED="1554383479134" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据结构" />
+    <SUITE FILE_PATH="coverage/newPython$02___1_.coverage" NAME="02-静态服务器 (1) Coverage Results" MODIFIED="1548120058873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/newPython$010_.coverage" NAME="010-队列的实现 Coverage Results" MODIFIED="1549529515854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据结构/传智播客" />
+    <SUITE FILE_PATH="coverage/newPython$02__.coverage" NAME="02--静态服务器 Coverage Results" MODIFIED="1548075006362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/服务器框架" />
+    <SUITE FILE_PATH="coverage/newPython$hm_02_world.coverage" NAME="hm_02_world Coverage Results" MODIFIED="1548075701722" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/newPython$015_.coverage" NAME="015-希尔排序 Coverage Results" MODIFIED="1549785582727" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数据结构/传智播客" />
+    <SUITE FILE_PATH="coverage/newPython$Demo2.coverage" NAME="Demo2 Coverage Results" MODIFIED="1550575914093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/newPython$.coverage" NAME="新式类旧式类 Coverage Results" MODIFIED="1547810712712" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/正则表达式" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="newPython" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/001-静态服务器.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="455">
+              <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+              <folding>
+                <element signature="e#0#20#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>®</find>
+      <find>a</find>
+      <find>b</find>
+      <find>hello</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>b</replace>
+      <replace>h</replace>
+      <replace>world</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/wsgipython/ctime.py" />
+        <option value="$PROJECT_DIR$/Demo4.py" />
+        <option value="$PROJECT_DIR$/Demo3.py" />
+        <option value="$PROJECT_DIR$/MyWebFrame.py" />
+        <option value="$PROJECT_DIR$/MyWebServer.py" />
+        <option value="$PROJECT_DIR$/数据结构.py" />
+        <option value="$PROJECT_DIR$/数据结构/GuessNum.py" />
+        <option value="$PROJECT_DIR$/数据结构/001-GuessNum.py" />
+        <option value="$PROJECT_DIR$/数据结构/002-字符串字面值.py" />
+        <option value="$PROJECT_DIR$/数据结构/003-import语句.py" />
+        <option value="$PROJECT_DIR$/数据结构/004-递归.py" />
+        <option value="$PROJECT_DIR$/数据结构/005-高阶函数.py" />
+        <option value="$PROJECT_DIR$/数据结构/006-捕获异常.py" />
+        <option value="$PROJECT_DIR$/数据结构/008-创建新的类.py" />
+        <option value="$PROJECT_DIR$/数据结构/008-度量算法运行的时间.py" />
+        <option value="$PROJECT_DIR$/数据结构/009-搜索最小项.py" />
+        <option value="$PROJECT_DIR$/数据结构/传智播客/001-算法引入.py" />
+        <option value="$PROJECT_DIR$/数据结构/传智播客/002-计算时间复杂度.py" />
+        <option value="$PROJECT_DIR$/数据结构/传智播客/003-代码运行时间测算.py" />
+        <option value="$PROJECT_DIR$/数据结构/传智播客/004-连续存储.py" />
+        <option value="$PROJECT_DIR$/数据结构/传智播客/004-顺序表连续存储.py" />
+        <option value="$PROJECT_DIR$/数据结构/裘宗燕/review.py" />
+        <option value="$PROJECT_DIR$/数据结构/裘宗燕/review.txt" />
+        <option value="$PROJECT_DIR$/数据结构/裘宗燕/01-乱序字符串.py" />
+        <option value="$PROJECT_DIR$/数据结构/裘宗燕/02-乱序字符串.py" />
+        <option value="$PROJECT_DIR$/数据结构/裘宗燕/03-乱序字符串.py" />
+        <option value="$PROJECT_DIR$/数据结构/裘宗燕/04-乱序字符串.py" />
+        <option value="$PROJECT_DIR$/数据结构/传智播客/04-单链表.py" />
+        <option value="$PROJECT_DIR$/数据结构/传智播客/008-变量标识本质.py" />
+        <option value="$PROJECT_DIR$/数据结构/传智播客/007-双向链表.py" />
+        <option value="$PROJECT_DIR$/数据结构/传智播客/005-单链表.py" />
+        <option value="$PROJECT_DIR$/数据结构/传智播客/006-单向循环链表.py" />
+        <option value="$PROJECT_DIR$/数据结构/传智播客/009-栈的实现.py" />
+        <option value="$PROJECT_DIR$/数据结构/传智播客/010-队列的实现.py" />
+        <option value="$PROJECT_DIR$/数据结构/传智播客/011-双端队列.py" />
+        <option value="$PROJECT_DIR$/数据结构/传智播客/012-冒泡排序.py" />
+        <option value="$PROJECT_DIR$/数据结构/传智播客/013-选择排序.py" />
+        <option value="$PROJECT_DIR$/数据结构/传智播客/014-插入排序.py" />
+        <option value="$PROJECT_DIR$/数据结构/传智播客/015-希尔排序.py" />
+        <option value="$PROJECT_DIR$/test/Demo3.py" />
+        <option value="$PROJECT_DIR$/数据结构/传智播客/test.py" />
+        <option value="$PROJECT_DIR$/数据结构/传智播客/016-快速排序.py" />
+        <option value="$PROJECT_DIR$/数据结构/传智播客/017-归并排序.py" />
+        <option value="$PROJECT_DIR$/数据结构/传智播客/018-二分法.py" />
+        <option value="$PROJECT_DIR$/数据结构/传智播客/019-二叉树.py" />
+        <option value="$PROJECT_DIR$/数据库/课堂笔记.txt" />
+        <option value="/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/turtle.py" />
+        <option value="$PROJECT_DIR$/test/Demo2.py" />
+        <option value="$PROJECT_DIR$/test/Demo1.py" />
+        <option value="$PROJECT_DIR$/数据结构/知乎数据结构/demo1.py" />
+        <option value="$PROJECT_DIR$/数据结构/007-文件及其操作.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="792" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last.edited.regexp" value="Sample Text&#10;" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/多种服务器类型" />
+      <recent name="$PROJECT_DIR$/服务器框架" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/wsgipython" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.001-静态服务器">
+    <configuration name="001-静态服务器" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="newPython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/001-静态服务器.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="007-文件及其操作" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="newPython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/数据结构" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/数据结构/007-文件及其操作.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="019-二叉树" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="newPython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/数据结构/传智播客" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/数据结构/传智播客/019-二叉树.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Demo1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="newPython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/Demo1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Demo2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="newPython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/Demo2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.019-二叉树" />
+      <item itemvalue="Python.Demo2" />
+      <item itemvalue="Python.Demo1" />
+      <item itemvalue="Python.007-文件及其操作" />
+      <item itemvalue="Python.001-静态服务器" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.001-静态服务器" />
+        <item itemvalue="Python.007-文件及其操作" />
+        <item itemvalue="Python.Demo1" />
+        <item itemvalue="Python.Demo2" />
+        <item itemvalue="Python.019-二叉树" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="53d9c302-7a20-4254-b07e-037ddfa401b7" name="Default Changelist" comment="" />
+      <created>1545891680856</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1545891680856</updated>
+      <workItem from="1545891683634" duration="131000" />
+      <workItem from="1545891896321" duration="3331000" />
+      <workItem from="1545898197605" duration="3141000" />
+      <workItem from="1545919822198" duration="766000" />
+      <workItem from="1546908289670" duration="650000" />
+      <workItem from="1546921713964" duration="13890000" />
+      <workItem from="1546942697753" duration="6692000" />
+      <workItem from="1546957117772" duration="778000" />
+      <workItem from="1547350852950" duration="117000" />
+      <workItem from="1547351002089" duration="1315000" />
+      <workItem from="1547380606656" duration="4891000" />
+      <workItem from="1547434019507" duration="4517000" />
+      <workItem from="1547521594213" duration="187000" />
+      <workItem from="1547521822327" duration="12291000" />
+      <workItem from="1547602498214" duration="2882000" />
+      <workItem from="1547622484937" duration="90000" />
+      <workItem from="1547631761068" duration="4938000" />
+      <workItem from="1547686111901" duration="4980000" />
+      <workItem from="1547716687259" duration="247000" />
+      <workItem from="1547726523618" duration="621000" />
+      <workItem from="1547774983829" duration="5074000" />
+      <workItem from="1547782175332" duration="1851000" />
+      <workItem from="1547796806052" duration="259000" />
+      <workItem from="1547797388306" duration="4286000" />
+      <workItem from="1547811388766" duration="97000" />
+      <workItem from="1547811503966" duration="3713000" />
+      <workItem from="1547868647142" duration="1148000" />
+      <workItem from="1547943832148" duration="7516000" />
+      <workItem from="1547988520721" duration="758000" />
+      <workItem from="1548040731290" duration="12741000" />
+      <workItem from="1548064176838" duration="78000" />
+      <workItem from="1548064293897" duration="907000" />
+      <workItem from="1548073612506" duration="619000" />
+      <workItem from="1548074976174" duration="1545000" />
+      <workItem from="1548119987699" duration="9404000" />
+      <workItem from="1548243530875" duration="6986000" />
+      <workItem from="1548293684317" duration="8217000" />
+      <workItem from="1548319829958" duration="3156000" />
+      <workItem from="1548330936100" duration="8866000" />
+      <workItem from="1548378669382" duration="10797000" />
+      <workItem from="1548418134251" duration="4170000" />
+      <workItem from="1548463832301" duration="5507000" />
+      <workItem from="1548490949441" duration="4258000" />
+      <workItem from="1548562999145" duration="1652000" />
+      <workItem from="1548579050053" duration="556000" />
+      <workItem from="1548591213061" duration="5193000" />
+      <workItem from="1548644300546" duration="1863000" />
+      <workItem from="1548661188482" duration="3580000" />
+      <workItem from="1548685613263" duration="533000" />
+      <workItem from="1548726554996" duration="2375000" />
+      <workItem from="1548997909426" duration="42000" />
+      <workItem from="1548997982489" duration="2266000" />
+      <workItem from="1549026243794" duration="102000" />
+      <workItem from="1549078628113" duration="8923000" />
+      <workItem from="1549159627884" duration="10387000" />
+      <workItem from="1549245178181" duration="2326000" />
+      <workItem from="1549354281171" duration="5358000" />
+      <workItem from="1549426442547" duration="14450000" />
+      <workItem from="1549504784694" duration="14186000" />
+      <workItem from="1549547634320" duration="1495000" />
+      <workItem from="1549602660059" duration="3721000" />
+      <workItem from="1549682275490" duration="8560000" />
+      <workItem from="1549718366773" duration="526000" />
+      <workItem from="1549766821084" duration="6905000" />
+      <workItem from="1549852242776" duration="1054000" />
+      <workItem from="1549853665537" duration="9924000" />
+      <workItem from="1549937587345" duration="1379000" />
+      <workItem from="1549941906391" duration="3611000" />
+      <workItem from="1549976801759" duration="847000" />
+      <workItem from="1550048020273" duration="1212000" />
+      <workItem from="1550113837253" duration="3726000" />
+      <workItem from="1550153802296" duration="583000" />
+      <workItem from="1550202247069" duration="5502000" />
+      <workItem from="1550296493661" duration="1050000" />
+      <workItem from="1550375612814" duration="1123000" />
+      <workItem from="1550405422130" duration="738000" />
+      <workItem from="1550486242222" duration="781000" />
+      <workItem from="1550556407620" duration="217000" />
+      <workItem from="1550575318556" duration="505000" />
+      <workItem from="1550576402290" duration="331000" />
+      <workItem from="1550580670931" duration="386000" />
+      <workItem from="1550586223072" duration="616000" />
+      <workItem from="1550710881813" duration="1912000" />
+      <workItem from="1550730785302" duration="287000" />
+      <workItem from="1550759987065" duration="20000" />
+      <workItem from="1550901006618" duration="11000" />
+      <workItem from="1550901042742" duration="7000" />
+      <workItem from="1550920991907" duration="899000" />
+      <workItem from="1551053999178" duration="2034000" />
+      <workItem from="1551057065736" duration="499000" />
+      <workItem from="1551057641434" duration="3000" />
+      <workItem from="1551057648301" duration="176000" />
+      <workItem from="1551069013938" duration="226000" />
+      <workItem from="1551069500972" duration="2857000" />
+      <workItem from="1554382822990" duration="737000" />
+      <workItem from="1554383665397" duration="175000" />
+      <workItem from="1554440180510" duration="104000" />
+      <workItem from="1554440309203" duration="30000" />
+      <workItem from="1554440360113" duration="91000" />
+      <workItem from="1559276014855" duration="145000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="307205000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="792" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989339" weight="0.1981402" />
+      <window_info id="Structure" order="1" sideWeight="0.5010661" side_tool="true" weight="0.25679544" />
+      <window_info id="Favorites" order="2" sideWeight="0.5010661" side_tool="true" weight="0.25679544" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49785408" weight="0.35142857" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50214595" side_tool="true" weight="0.35233918" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.366322" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.4830133" />
+      <window_info anchor="bottom" id="File Transfer" order="13" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="14" visible="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.3297568" />
+      <window_info anchor="right" id="Database" order="4" weight="0.3297568" />
+      <window_info anchor="right" id="Coverage" order="5" side_tool="true" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/数据结构.py" />
+    <entry file="file://$PROJECT_DIR$/数据结构/001-GuessNum.py" />
+    <entry file="file://$PROJECT_DIR$/数据结构/004-递归.py" />
+    <entry file="file://$PROJECT_DIR$/数据结构/005-高阶函数.py" />
+    <entry file="file://$PROJECT_DIR$/a.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/b.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据结构/a.txt" />
+    <entry file="file://$PROJECT_DIR$/数据结构/008-创建新的类.py" />
+    <entry file="file://$PROJECT_DIR$/数据结构/传智播客/002-计算时间复杂度.py" />
+    <entry file="file://$PROJECT_DIR$/数据结构/裘宗燕/review.py" />
+    <entry file="file://$PROJECT_DIR$/数据结构/裘宗燕/review.txt" />
+    <entry file="file://$PROJECT_DIR$/数据结构/裘宗燕/01-乱序字符串.py" />
+    <entry file="file://$PROJECT_DIR$/数据结构/裘宗燕/03-乱序字符串.py" />
+    <entry file="file://$PROJECT_DIR$/数据结构/裘宗燕/04-乱序字符串.py" />
+    <entry file="file://$PROJECT_DIR$/数据结构/裘宗燕/02-乱序字符串.py" />
+    <entry file="file://$PROJECT_DIR$/数据结构/传智播客/004-顺序表连续存储.py" />
+    <entry file="file://$PROJECT_DIR$/数据结构/传智播客/008-变量标识本质.py" />
+    <entry file="file://$PROJECT_DIR$/数据结构/传智播客/007-双向链表.py" />
+    <entry file="file://$PROJECT_DIR$/数据结构/传智播客/006-单向循环链表.py" />
+    <entry file="file://$PROJECT_DIR$/数据结构/传智播客/009-栈的实现.py" />
+    <entry file="file://$PROJECT_DIR$/数据结构/传智播客/011-双端队列.py" />
+    <entry file="file://$PROJECT_DIR$/数据结构/传智播客/010-队列的实现.py" />
+    <entry file="file://$PROJECT_DIR$/数据结构/传智播客/012-冒泡排序.py" />
+    <entry file="file://$PROJECT_DIR$/数据结构/传智播客/014-插入排序.py" />
+    <entry file="file://$PROJECT_DIR$/数据结构/传智播客/015-希尔排序.py" />
+    <entry file="file://$PROJECT_DIR$/test/Demo3.py" />
+    <entry file="file://$PROJECT_DIR$/数据结构/传智播客/016-快速排序.py" />
+    <entry file="file://$PROJECT_DIR$/数据结构/传智播客/005-单链表.py" />
+    <entry file="file://$PROJECT_DIR$/数据结构/传智播客/013-选择排序.py" />
+    <entry file="file://$PROJECT_DIR$/数据结构/传智播客/test.py" />
+    <entry file="file://$PROJECT_DIR$/数据结构/传智播客/017-归并排序.py" />
+    <entry file="file://$PROJECT_DIR$/数据结构/传智播客/003-代码运行时间测算.py" />
+    <entry file="file://$PROJECT_DIR$/数据结构/传智播客/001-算法引入.py" />
+    <entry file="file://$PROJECT_DIR$/数据结构/传智播客/018-二分法.py" />
+    <entry file="file://$PROJECT_DIR$/数据结构/传智播客/019-二叉树.py" />
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/turtle.py" />
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/turtle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127906">
+          <caret line="4135" selection-start-line="4135" selection-end-line="4135" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Demo2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Demo1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据库/课堂笔记.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="584">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据结构/008-度量算法运行的时间.py" />
+    <entry file="file://$PROJECT_DIR$/数据结构/009-搜索最小项.py" />
+    <entry file="file://$PROJECT_DIR$/数据结构/007-文件及其操作.py" />
+    <entry file="file://$PROJECT_DIR$/数据结构/003-import语句.py" />
+    <entry file="file://$PROJECT_DIR$/html/world.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyWebFrame.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1984">
+          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/003-动态服务器.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="562">
+          <caret line="84" column="25" selection-start-line="84" selection-start-column="25" selection-end-line="84" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/数据结构/006-捕获异常.py" />
+    <entry file="file://$PROJECT_DIR$/数据结构/002-字符串字面值.py" />
+    <entry file="file://$PROJECT_DIR$/数据结构/知乎数据结构/demo1.py" />
+    <entry file="file://$PROJECT_DIR$/001-静态服务器.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

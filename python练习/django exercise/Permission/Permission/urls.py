@@ -1,0 +1,31 @@
+"""Permission URL Configuration
+
+The `urlpatterns` list routes URLs to views. For more information please see:
+    https://docs.djangoproject.com/en/2.2/topics/http/urls/
+Examples:
+Function views
+    1. Add an import:  from my_app import views
+    2. Add a URL to urlpatterns:  path('', views.home, name='home')
+Class-based views
+    1. Add an import:  from other_app.views import Home
+    2. Add a URL to urlpatterns:  path('', Home.as_view(), name='home')
+Including another URLconf
+    1. Import the include() function: from django.urls import include, path
+    2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
+"""
+from django.contrib import admin
+from django.urls import path, re_path
+from first import views
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('customer/', views.customer),
+    path('order/', views.order),
+    path('order_add/', views.order_add),
+    path('customer_add/', views.customer_add),
+    re_path('order_delete/(\d+)/', views.order_delete),
+    re_path('customer_delete/(\d+)/', views.customer_delete),
+    re_path('order_edit/(\d+)/', views.order_edit),
+    re_path('customer_edit/(\d+)/', views.customer_edit),
+    path('enter/', views.enter),
+]

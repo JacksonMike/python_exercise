@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>left_menu</title>
+    <script src="jquery.js"></script>
+     <script>
+
+         // each循环
+         // 1 循环数据
+         var arr=[123,5,56,67,78];
+         $.each(arr,function (i,j) {
+             console.log(i,j)
+         });
+
+         var obj={"name":"akex","age":123}
+
+         $.each(obj,function (i,j) {
+             console.log(i,j)
+         });
+
+
+         // 2 循环标签
+
+
+         $(function () {
+
+              $("ul li").each(function () {
+              console.log($(this).html()) // 循环的每一个li标签
+
+          })
+
+
+
+
+
+
+         })
+
+
+
+
+
+     </script>
+</head>
+<body>
+
+<ul>
+    <li>123</li>
+    <li>122</li>
+    <li>123re</li>
+    <li>123re</li>
+    <li>123re</li>
+    <li>123re</li>
+    <li>123re</li>
+</ul>
+
+</body>
+</html>

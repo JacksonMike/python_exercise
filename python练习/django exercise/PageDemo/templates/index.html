@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+</head>
+<body>
+    <h1>图书首页</h1>
+</body>
+    {% for foo in current_page %}
+        {{ foo.title }}-----{{ foo.price }}<br>
+    {% endfor %}
+
+    {% if current_page.has_previous %}
+        <a href="?page={{ current_page.previous_page_number }}">上一页</a>
+    {% else %}
+        <a href="">上一页</a>
+    {% endif %}
+
+    {% for foo in paginator.page_range %}
+        {% if foo == current_page_num %}
+            <a href="?page={{ foo }}">{{ foo }}</a>
+        {% else %}
+            <a href="?page={{ foo }}">{{ foo }}</a>
+        {% endif %}
+    {% endfor %}
+
+    {% if current_page.has_next %}
+        <a href="?page={{ current_page.next_page_number }}">下一页</a>
+    {% else %}
+        <a href="">下一页</a>
+    {% endif %}
+</html>

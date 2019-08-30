@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
+</head>
+<body>
+    <button id="button">点我发送请求</button>
+    <script>
+        $("#button").click(function () {
+            $.ajax({
+                url: "http://127.0.0.1:8000/jsonp/",
+                type: "put",
+                contentType: "application/json",
+                success: function (response) {
+                    console.log(response);
+                }
+            });
+        });
+      //  function handle(data) {
+      //      alert(data);
+        //}
+    </script>
+</body>
+</html>

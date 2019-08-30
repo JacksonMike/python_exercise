@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>form 文件上传</title>
+</head>
+<body>
+    <h1>上传文件必须用multipart/form-data的格式</h1>
+    <form action="/deal_form_upload/" method="post" enctype="multipart/form-data">
+    姓名<input type="text" name="user">
+    文件<input type="file" name="file_obj">
+    <input type="submit">
+</form>
+</body>
+</html>

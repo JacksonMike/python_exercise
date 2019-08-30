@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登陆界面</title>
+    <script src="/static/js/jquery-3.3.js"></script>
+</head>
+<body>
+    <h1>登陆界面</h1>
+    <form action="" method="post">
+        {% csrf_token %}
+        姓名:<input type="text" id="user">
+        密码:<input type="password" id="pwd">
+        <input type="submit" value="登陆" id="btn">
+
+    </form>
+    <span class="error"></span>
+    <script>
+        $("#btn").click(function () {
+            $.ajax({
+                url: "",
+                type: "post",
+                data: {
+                    user: $("#user").val(),
+                    pwd: $("#pwd").val(),
+                    csrfmiddlewaretoken: $("[name='csrfmiddlewaretoken']").val()
+                },
+                success: function (response) {
+                    console.log(response)
+                    // 解锁json数据
+                    var res = JSON.parse(response);
+                    if (res.user){
+                        //登陆成功
+                        location.href = "/index/";
+                    }else {
+                        //登陆失败
+                        $(".error").html(res.error).css("color", "red");
+
+                    }
+                }
+            })
+        })
+    </script>
+</body>
+</html>

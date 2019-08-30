@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>文件上传</title>
+    <script src="/static/js/jquery-3.3.js"></script>
+</head>
+<body>
+    <h1>Ajax文件上传</h1>
+    姓名:<input type="text" id="user">
+    文件:<input type="file" name="file_obj" id="file">
+    <input type="button" class="btn" value="提交">
+    <p class="msg"></p>
+    <script>
+        $(".btn").click(function () {
+            var formdata = new FormData();
+            formdata.append("file_obj", $("#file")[0].files[0]);
+            formdata.append("user", $("#user").val());
+            $.ajax({
+                url: "/deal_file_upload/",
+                type: "post",
+                processData: false,
+                contentType: false,
+                data:formdata,
+                success: function (response) {
+                    console.log(response);
+                    if (response === "OK"){
+                        $(".msg").html("上传成功");
+                    }else {
+                        $(".msg").html("上传失败");
+                    }
+                }
+            })
+        })
+    </script>
+</body>
+</html>

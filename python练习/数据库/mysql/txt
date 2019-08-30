@@ -1,0 +1,107 @@
+数据库系统解决问题:持久性存储,优化读写,保证数据的有效性
+数据库类型:文档型:sqlite 服务型:mysql
+三范式:一 列不可分 二唯一标识 三引用主键
+decimal(5,2) 总共有五位,小数两位 111.11
+char(5):"abc "固定五个字符      varchar(5):"abc"不固定不超过五个
+主键primary key 唯一,不重复,根据主键找数据速度非常快 只能有一个
+unique 唯一 可以多个
+
+select now(); 查询当前时间
+select version(); 查询mysql版本
+show databases; 显示当前所有数据库
+use db2; 使用数据库某某
+create database python3 charset=utf8; 创建数据库python3
+drop database python3;删除数据库python3
+select database(); 查看当前操作的数据
+
+show tables; 显示数据中的所有表
+
+create table db1(
+id int auto_increment primary key not null,
+name varchar(100) not null,
+gender bit default 1,
+); auto_increment 自动增长
+
+alter table db1 add birthday datetime; 增加 列名,属性
+alter table db1 drop name; 删除 列名
+alter table db1 modify name varchar(1000); 修改字段属性
+alter table db1 change birth birthday datetime; 修改列名
+drop table db1  删除表db1
+desc db1; 查看表结构
+rename table db1 to db2; 改变表名
+show create table test; 查看表的创建语句
+select * from db1; 查询表中所有的信息
+insert into db1 values(0, "Jim", 1) 全列插入
+insert into db1(name, gender) values("Gay", 1) 确省插入
+insert into db1(name) values("Ann", "Bob", "Cindy") 一次插入多项
+insert into db1 values(0, "Cook", 1),(0, "Bob", 1); 一次插入多项
+# where左边是要设置的条件,右边是满足原始表的条件,可设置多个
+update db2 set birthday="1994-4-2" where id = 1
+update db2 set birthday="1993-2-4",gender=1 where id=8;
+# 物理删除
+delete from db1 where id = 8;
+# 逻辑删除,将isDelete设置为1
+update db100 set isDelete = 1 where id = 9;
+
+select * from student where id > 2;
+select id,name from student;
+select distinct gender from student;# 消除重复行
+select distinct id, gender from student;# 行
+select * from student where id != 3; #不等于
+
+select * from student where name like "黄%"; # 多个 黄药师
+select * from student where name like "黄_"; # 一个 黄蓉
+select * from student where name like "黄_" or name like "%龙%";# 黄蓉 小龙女
+select * from student where id in (3,8,10); #非连续范围
+select * from student where id between 4 and 9; # 连续范围
+select * from student where id between 4 and 9 and gender = 0; # 混用多个and
+select * from student where birthday is null; # 判空条件
+select * from student where birthday is not  null; # 非空条件
+select * from student where birthday is not  null and gender = 0;# 混合用
+运算优先级:小括号，not，比较运算符，and or
+and比or先运算，如果同时出现并希望先算or，需要结合()使用
+
+select count(*) from student where gender=0;# 计算总行数
+select max(id) from student where gender = 0; # 计算这一列最大值
+select min(id) from student where isDelete=1; # 计算一列最小值
+select name from student where id
+=(select min(id) from student where isDelete=0); # 子查询
+select sum(id) from student where gender=0; # 求和
+select avg(id) from student where gender=1 and isDelete=0; # 平均值
+select isDelete,count(*) from student group by isDelete; # 分组
+select gender,count(*) as rs from student
+group by gender
+having rs > 2; # 分组后进行筛选
+where是对from后面指定的表进行数据筛选，属于对原始数据的筛选
+having是对group by的结果进行筛选
+select * from student where gender=1 order by id desc; # 将结果按照ID降序排列
+select * from student where gender=1 order by id asc; # 将结果按照ID升序排列 默认
+select * from student limit 1,3; 从0行开始每次读取3行
+select * from student limit (n-1)*m,n; #每次显示m条数据,现在在第n页
+关系作为字段也要进行存储
+A对B是一对多,关系字段存在B表中;若一对一,A表，B表都可以;若多对多,新建一张表存储关系;
+select student.name, subject.title, score.grade from score
+inner join student on score.stuid = student.id
+inner join subject on score.subid = subject.id;
+连接查询
+select student.name, subject.title, score.grade from subject
+inner join score on score.subid = subject.id
+inner join student on score.stuid = student.id;
+
+select student.name, subject.title, score.grade from student
+inner join score on score.stuid = student.id
+inner join subject on score.subid = subject.id;
+数据库中的数据默认安装某种索引来存储，默认安装主键来存储
+建立索引的目的是为了快速找到数据
+索引创建会增加物理开销
+索引:指向数据库中数据的引用
+show index from student;查看表的索引
+create index title_index on areas(title(50)); 创建索引
+drop index title_index on areas; 删除索引
+
+set profiling=1; 开启运行时间检测
+select * from areas where title = '北京市'; 执行语句
+show profiles; 查看执行时间
+alter table hero add constraint hero_room foreign key(roomid) references room(id); # 添加外键
+# 安装mysql模块
+sudo apt-get install python-mysql

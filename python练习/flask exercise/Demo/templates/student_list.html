@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Old Boy EDU</title>
+</head>
+<body>
+    {{ student }}<br>
+    {% for foo in student %}
+        {{ foo }}<br>
+        {{ foo.name }}<br>
+        {{ foo.get("age") }}<br>
+        {{ foo["gender"] }}<br>
+    {% endfor %}
+
+</body>
+</html>

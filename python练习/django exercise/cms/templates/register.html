@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>注册页面</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/static/bootstrap/css/bootstrap.css">
+    <style>
+        .error{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+<h3>注册页面</h3>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+            <form action="" method="post">
+                {% csrf_token %}
+                {% for foo in uf %}
+                    <div class="form-group">
+                        <label for="">{{ foo.label }}</label>
+                        {{ foo }}<span class="error pull-right"></span>
+                    </div>
+                {% endfor %}
+                <input type="button" class="btn btn-primary pull-left register_btn" value="注册">
+                <span class="error "></span>
+            </form>
+        </div>
+    </div>
+</div>
+<script src="/static/js/jquery-1.12.4.js"></script>
+<script>
+    $(".register_btn").click(function () {
+        $.ajax({
+            url: "",
+            type: "post",
+            data: {
+                user: $("#id_user").val(),
+                gender: $("#id_gender").val(),
+                pwd: $("#id_pwd").val(),
+                r_pwd: $("#id_r_pwd").val(),
+                email: $("#id_email").val(),
+                csrfmiddlewaretoken: $("[name='csrfmiddlewaretoken']").val()
+            },
+            success: function (response) {
+                console.log(response);
+                if (response.user){
+                    location.href = "/enter/"
+                }else {
+                    $(".error").html(" ");
+                    $(".form-group").removeClass("has-error");
+                    $.each(response.err_msg, function (i, j) {
+                    console.log(i, j);
+                   // if (i === "__all__"){
+                    //  $("#id_r_pwd").next().html(j[0]);
+                    //}else {
+                        //$("#id_"+i).next().html(j[0]).parent().addClass("has-error");
+                    //}
+                    $("#id_"+i).next().html(j[0]).parent().addClass("has-error");
+
+                })
+                }
+
+            }
+        })
+    })
+</script>
+
+
+</body>
+</html>
